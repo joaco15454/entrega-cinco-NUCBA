@@ -1,0 +1,28 @@
+@media (max-width:320px) {
+    .container__pizzas {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card__pizzas{
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .mid__card {
+        display: flex;
+        justify-content: end;
+        align-content: flex-start;
+        gap: 20px;
+    }
+    .bot__card {
+        display: flex;
+        align-items: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+ }
